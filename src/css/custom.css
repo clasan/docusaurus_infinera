@@ -7,6 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  /*
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -14,6 +15,16 @@
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+  */
+  /* :::inf: added infinera orange as primary base color for Infima framework::: */
+  --ifm-color-primary: #ff8500;
+  --ifm-color-primary-dark: #e67800;
+  --ifm-color-primary-darker: #d97100;
+  --ifm-color-primary-darkest: #b35d00;
+  --ifm-color-primary-light: #ff911a;
+  --ifm-color-primary-lighter: #ff9726;
+  --ifm-color-primary-lightest: #ffaa4d;
   --ifm-code-font-size: 95%;
 }
 
