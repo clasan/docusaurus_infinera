@@ -7,6 +7,19 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'your-org', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
+  plugins: [
+   [
+     require.resolve("@easyops-cn/docusaurus-search-local"),
+     {
+       // ...:::inf:added local search::: Your options.
+       // `hashed` is recommended as long-term-cache of index file is possible.
+       hashed: true,
+       indexDocs: true,
+       indexPages: true,
+       highlightSearchTermsOnTargetPage: true,
+     },
+   ],
+ ],
   themeConfig: {
 //    algolia: {
 //      apiKey: 'YOUR_API_KEY',
